@@ -1,0 +1,9 @@
+version: "3"
+services:
+  apache-php74:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - "./:/var/www/html"
+
