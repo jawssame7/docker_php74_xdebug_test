@@ -1,4 +1,6 @@
 # docker_php74_xdebug_test
-This is the test project that testing step execution php7.4-xdebug
 
-test hoge hoge
+## 設定手順
+1. `env.env` ファイルを `.env` ファイルにリネーム
+2. コマンドを実行 `docker-compose up -d`
+
